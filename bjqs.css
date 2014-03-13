@@ -7,8 +7,23 @@ ul.bjqs-controls.v-centered li a{position:absolute;}
 ul.bjqs-controls.v-centered li.bjqs-next a{right:0;}
 ul.bjqs-controls.v-centered li.bjqs-prev a{left:0;}
 ol.bjqs-markers{list-style: none; padding: 0; margin: 0; margin-top: 5px;width:100%;}
-ol.bjqs-markers.h-centered{text-align: center;}
+ol.bjqs-markers.h-centered{text-align: right;position: relative;top: -23px;padding-right: 90px;}
 ol.bjqs-markers li{display:inline;padding: 0 5px;}
-ol.bjqs-markers li a{display:inline-block;width: 15px;height: 15px;background-color: #FFF;border: 1px solid black;border-radius: 10px;}
-ol.bjqs-markers li.active-marker a{display:inline-block;width: 15px;height: 15px;background-color: blue;border: 1px solid black;border-radius: 10px;}
+ol.bjqs-markers li a{display:inline-block;width: 12px;height: 12px;background-color: #F1D3D3;border: 1px solid #F1D3D3;border-radius: 10px;}
+ol.bjqs-markers li.active-marker a{display:inline-block;background-color: white;border: 1px solid white;border-radius: 10px;}
 p.bjqs-caption{display:block;width:96%;margin:0;padding:2%;position:absolute;bottom:0;}
+#banner-fade ul li a img.banner-img {width: 960px;}
+div.content-box{margin-top:30px;}
+#content-wrap div.content-box div.spotlight-box, #content-wrap div.content-box div.portal-box {overflow: hidden;display: inline-block;}
+#content-wrap div.content-box div.spotlight-box {background: url('image/spotlight_bg.gif') no-repeat;height: 385px;width: 695px;float: left;}
+#content-wrap div.content-box div.portal-box {background: url('image/portal_bg.gif') bottom center no-repeat;height: 385px;width: 229px; float: right;}
+#content-wrap div.content-box div.portal-box p{text-align: center;}
+#content-wrap div.content-box div.portal-box p.portal-btn {position: relative;top: 30px;}
+#content-wrap div.content-box div.spotlight-box div.spotlight-content-box {height: 90%;margin: 0 auto;margin-top: 30px;}
+#content-wrap div.content-box div.spotlight-box div.spotlight-content-box ul {text-align: center;}
+#content-wrap div.content-box div.spotlight-box div.spotlight-content-box ul li{display:inline-block; margin: 0 2px; overflow:hidden; width:165px; height: 345px;}
+#content-wrap div.content-box div.spotlight-box div.spotlight-content-box ul li a{display:block; overflow:hidden;}
+#content-wrap div.content-box div.spotlight-box div.spotlight-content-box ul li a img {width: 100%;height: 150px;border: 1px solid rgb(204, 204, 204);border-radius: 10px;}
+#content-wrap div.content-box div.spotlight-box div ul li p{text-align: left;}
+#content-wrap div.content-box div.portal-box p.quicknews{margin-top: 30px;}
+#content-wrap div.content-box div.portal-box p.quicknews img {width: 201px;}
