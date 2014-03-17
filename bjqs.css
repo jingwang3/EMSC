@@ -17,7 +17,7 @@ div.content-box{margin-top:30px;}
 #content-wrap div.content-box div.spotlight-box, #content-wrap div.content-box div.portal-box {overflow: hidden;display: inline-block;}
 #content-wrap div.content-box div.spotlight-box {background: url('image/spotlight_bg.gif') no-repeat;height: 385px;width: 695px;float: left;}
 #content-wrap div.content-box div.portal-box {background: url('image/portal_bg.gif') bottom center no-repeat;height: 385px;width: 229px; float: right;}
-#content-wrap div.content-box div.portal-box p{text-align: center;}
+#content-wrap div.content-box div.portal-box p, #content-wrap div.content-box div.portal-box div{text-align: center;}
 #content-wrap div.content-box div.portal-box p.portal-btn {position: relative;top: 30px;}
 #content-wrap div.content-box div.spotlight-box div.spotlight-content-box {height: 90%;margin: 0 auto;margin-top: 30px;}
 #content-wrap div.content-box div.spotlight-box div.spotlight-content-box ul {text-align: center;}
